@@ -261,7 +261,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	alakazam: {
 		inherit: true,
-		baseStats: {hp: 55, atk: 50, def: 45, spa: 135, spd: 135, spe: 120},
+		baseStats: {hp: 155, atk: 150, def: 45, spa: 135, spd: 135, spe: 120},
 	},
 	machop: {
 		inherit: true,
