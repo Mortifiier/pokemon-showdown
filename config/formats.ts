@@ -25,12 +25,12 @@ export const Formats: FormatList = [
 		section: "Rebalanced",
 	},
 	{
-		name: "[RB] Ubers",
+		name: "[Gen 6] [RB] Ubers",
 		mod: 'rb',
 		ruleset: ['Cancel Mod'],
 	},
 	{
-		name: "[RB] OU",
+		name: "[Gen 6] [RB] OU",
 		mod: 'rb',
 		ruleset: ['Cancel Mod'],
 	},
