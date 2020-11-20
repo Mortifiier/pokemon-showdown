@@ -26,12 +26,12 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[OH] Kanto/Johto Ubers",
-		mod: 'oh',
+		mod: 'overhaul',
 		ruleset: ['Cancel Mod'],
 	},
 	{
 		name: "[OH] Kanto/Johto OU",
-		mod: 'oh',
+		mod: 'overhaul',
 		ruleset: ['Cancel Mod'],
 	},
 	
