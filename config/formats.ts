@@ -22,16 +22,16 @@ export const Formats: FormatList = [
 	// Rebalance
 	///////////////////////////////////////////////////////////////////
 	{
-		section: "Rebalanced",
+		section: "Overhauls",
 	},
 	{
-		name: "[Gen 6] [RB] Ubers",
-		mod: 'rb',
+		name: "[OH] Kanto/Johto Ubers",
+		mod: 'oh',
 		ruleset: ['Cancel Mod'],
 	},
 	{
-		name: "[Gen 6] [RB] OU",
-		mod: 'rb',
+		name: "[OH] Kanto/Johto OU",
+		mod: 'oh',
 		ruleset: ['Cancel Mod'],
 	},
 	
