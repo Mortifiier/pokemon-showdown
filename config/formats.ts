@@ -19,6 +19,17 @@ The column value will be ignored for repeat sections.
 
 export const Formats: FormatList = [
 
+	// Rebalance
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Rebalanced",
+	},
+	{
+		name: "[RB] Anything Goes",
+		mod 'gen7',
+		ruleset: ['Cancel Mod'],
+	},
+	
 	// Sw/Sh Singles
 	///////////////////////////////////////////////////////////////////
 
@@ -40,6 +51,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] Unrated Random Battle",
 
 		mod: 'gen8',
+		searchShow: false,
 		team: 'random',
 		challengeShow: false,
 		rated: false,
@@ -54,6 +66,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['Standard', 'Dynamax Clause'],
 		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
@@ -61,6 +74,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] OU (Blitz)",
 
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['[Gen 8] OU', 'Blitz'],
 	},
 	{
@@ -84,6 +98,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['Standard', 'Dynamax Clause'],
 		banlist: ['Baton Pass'],
 	},
@@ -96,6 +111,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['[Gen 8] OU'],
 		banlist: ['OU', 'UUBL'],
 	},
@@ -108,6 +124,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['[Gen 8] UU'],
 		banlist: ['UU', 'RUBL'],
 	},
@@ -119,6 +136,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['[Gen 8] RU'],
 		banlist: ['RU', 'NUBL', 'Drizzle', 'Drought'],
 	},
@@ -130,6 +148,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['[Gen 8] NU'],
 		banlist: ['NU', 'PUBL', 'Heat Rock'],
 	},
@@ -142,6 +161,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		maxLevel: 5,
 		ruleset: ['Little Cup', 'Standard', 'Dynamax Clause'],
 		banlist: [
@@ -159,6 +179,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		ruleset: ['Same Type Clause', 'Standard', 'Dynamax Clause'],
 		banlist: [
 			'Blaziken', 'Calyrex-Ice', 'Calyrex-Shadow', 'Dialga', 'Eternatus', 'Genesect', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Kartana',
@@ -177,6 +198,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
+		searchShow: false,
 		teamLength: {
 			validate: [1, 3],
 			battle: 1,
