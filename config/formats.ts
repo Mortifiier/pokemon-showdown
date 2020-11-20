@@ -26,7 +26,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[RB] Anything Goes",
-		mod: 'gen5',
+		mod: 'rb',
 		ruleset: ['Cancel Mod'],
 	},
 	
