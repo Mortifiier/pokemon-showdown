@@ -776,4 +776,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
+	syclant: {
+		tier: "UU",
+	}
 };
