@@ -25,7 +25,12 @@ export const Formats: FormatList = [
 		section: "Rebalanced",
 	},
 	{
-		name: "[RB] Anything Goes",
+		name: "[RB] Ubers",
+		mod: 'rb',
+		ruleset: ['Cancel Mod'],
+	},
+	{
+		name: "[RB] OU",
 		mod: 'rb',
 		ruleset: ['Cancel Mod'],
 	},
@@ -669,7 +674,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'ccapm2',
-		searchShow: true,
+		searchShow: false,
 		ruleset: ['Obtainable', '!Obtainable Abilities', 'Species Clause', 'Nickname Clause', '2 Ability Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Sleep Clause Mod', 'Endless Battle Clause'],
 		banlist: ['All Pokemon', 'All Abilities', 'Baton Pass'],
 		unbanlist: [
