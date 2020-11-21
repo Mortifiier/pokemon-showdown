@@ -21,24 +21,7 @@ export const Formats: FormatList = [
 
 	// Rebalance
 	///////////////////////////////////////////////////////////////////
-	{
-		section: "Overhauls",
-	},
-	{
-		name: "[OH] Kanto/Johto Ubers",
-		mod: 'overhaul',
-		ruleset: ['Cancel Mod'],
-	},
-	{
-		name: "[OH] Kanto/Johto OU",
-		mod: 'overhaul',
-		ruleset: ['Cancel Mod'],
-	},
-	{
-		name: "[Gen 2] Testing",
-		mod: 'overhaul',
-		ruleset: ['Cancel Mod'],
-	},
+	
 	
 	// Sw/Sh Singles
 	///////////////////////////////////////////////////////////////////
