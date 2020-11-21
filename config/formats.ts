@@ -38,7 +38,7 @@ export const Formats: FormatList = [
 		name: "Testing",
 		mod: 'test',
 		ruleset: ['Cancel Mod'],
-	}
+	},
 	
 	// Sw/Sh Singles
 	///////////////////////////////////////////////////////////////////
