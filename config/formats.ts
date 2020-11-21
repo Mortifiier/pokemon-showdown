@@ -37,7 +37,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 2] Testing",
 		mod: 'test',
-		ruleset: ['Standard'],
+		ruleset: ['Cancel Mod'],
 	},
 	
 	// Sw/Sh Singles
