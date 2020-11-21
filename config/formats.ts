@@ -35,12 +35,9 @@ export const Formats: FormatList = [
 		ruleset: ['Cancel Mod'],
 	},
 	{
-		name: "Testing",
+		name: "[Gen 2] Testing",
 		mod: 'test',
 		ruleset: ['Cancel Mod'],
-		banlist: [
-			'Amoonguss', 'Azelf',
-		],
 	},
 	
 	// Sw/Sh Singles
@@ -2939,7 +2936,7 @@ export const Formats: FormatList = [
 		threads: [`&bullet; <a href="https://www.smogon.com/forums/threads/3576710/">GSC UU</a>`],
 
 		mod: 'gen2',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 2] OU'],
 		banlist: ['OU', 'UUBL'],
 	},
