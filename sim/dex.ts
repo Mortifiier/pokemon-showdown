@@ -406,7 +406,7 @@ export class ModdedDex {
 				);
 				if (!isLetsGo) species.isNonstandard = 'Past';
 			}
-			if (this.currentMod === 'oh') {
+			if (this.currentMod === 'overhaul') {
 				const isLegal = (species.num >= 1 && species.num < 10 && !species.forme);
 				if (!isLegal) {
 					species.tier = 'NU';
