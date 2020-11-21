@@ -19,6 +19,18 @@ The column value will be ignored for repeat sections.
 
 export const Formats: FormatList = [
 
+	// Overhaul
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Overhaul",
+	},
+	{
+		name: "[Gen 2] Testing",
+		desc: "Overhaul Testing",
+		mod: 'overhaul',
+		ruleset: ['Cancel Mod'],
+	},
+	
 	// Sw/Sh Singles
 	///////////////////////////////////////////////////////////////////
 
