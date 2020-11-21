@@ -38,6 +38,9 @@ export const Formats: FormatList = [
 		name: "Testing",
 		mod: 'test',
 		ruleset: ['Cancel Mod'],
+		banlist: [
+			'Amoonguss', 'Azelf',
+		],
 	},
 	
 	// Sw/Sh Singles
