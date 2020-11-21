@@ -33,7 +33,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["earthquake", "bodyslam", "slash"],
 		essentialMove: "fireblast",
 		comboMoves: ["swordsdance", "hyperbeam"],
-		tier: "UU",
+		tier: "Illegal",
 	},
 	squirtle: {
 		randomBattleMoves: ["blizzard", "seismictoss", "surf", "hydropump"],
