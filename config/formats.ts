@@ -34,6 +34,11 @@ export const Formats: FormatList = [
 		mod: 'overhaul',
 		ruleset: ['Cancel Mod'],
 	},
+	{
+		name: "Testing",
+		mod: 'test',
+		ruleset: ['Cancel Mod'],
+	}
 	
 	// Sw/Sh Singles
 	///////////////////////////////////////////////////////////////////
