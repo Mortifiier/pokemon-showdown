@@ -406,6 +406,9 @@ export class ModdedDex {
 				);
 				if (!isLetsGo) species.isNonstandard = 'Past';
 			}
+			if (this.currentMod === 'overhaul') {
+				if (species.num >= 10) species.tier = 'Illegal';
+			}
 			species.nfe = species.evos.length && this.getSpecies(species.evos[0]).gen <= this.gen;
 			species.canHatch = species.canHatch ||
 				(!['Ditto', 'Undiscovered'].includes(species.eggGroups[0]) && !species.prevo && species.name !== 'Manaphy');
