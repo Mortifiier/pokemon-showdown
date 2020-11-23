@@ -180,6 +180,7 @@ export class ModdedDex {
 
 	mod(mod: string | undefined): ModdedDex {
 		if (!dexes['base'].modsLoaded) dexes['base'].includeMods();
+		process.stdout.write(mod + "...");
 		return dexes[mod || 'base'];
 	}
 
