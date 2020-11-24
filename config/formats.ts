@@ -1406,10 +1406,6 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Randomized Metas",
-		column: 2,
-	},
-	{
 		name: "[Gen 8] Monotype Random Battle",
 
 		mod: 'gen8',
