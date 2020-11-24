@@ -1406,6 +1406,10 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
+		section: "Randomized Metas",
+		column: 2,
+	},
+	{
 		name: "[Gen 8] Monotype Random Battle",
 
 		mod: 'gen8',
@@ -1559,7 +1563,7 @@ export const Formats: FormatList = [
 
 		mod: 'letsgo',
 		team: 'random',
-		searchShow: true,
+		searchShow: false,
 		ruleset: ['Obtainable', 'Allow AVs', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
@@ -1937,14 +1941,14 @@ export const Formats: FormatList = [
 		minSourceGen: 6,
 	},
 	{
-		name: "[Gen 7 Let's Go] OU",
+		name: "[Gen 7 Let's Go] OU Test",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3667865/">LGPE OU Metagame Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3656868/">LGPE OU Viability Rankings</a>`,
 		],
 
 		mod: 'letsgo',
-		searchShow: true,
+		searchShow: false,
 		forcedLevel: 50,
 		ruleset: ['Obtainable', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 		banlist: ['Uber'],
