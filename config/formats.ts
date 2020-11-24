@@ -1941,7 +1941,7 @@ export const Formats: FormatList = [
 		minSourceGen: 6,
 	},
 	{
-		name: "[Gen 7 Let's Go] OU Test",
+		name: "[Gen 7 Let's Go] Test",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3667865/">LGPE OU Metagame Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3656868/">LGPE OU Viability Rankings</a>`,
