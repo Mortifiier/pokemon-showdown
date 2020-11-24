@@ -1563,7 +1563,7 @@ export const Formats: FormatList = [
 
 		mod: 'letsgo',
 		team: 'random',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Obtainable', 'Allow AVs', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
@@ -1948,7 +1948,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'letsgo',
-		searchShow: false,
+		searchShow: true,
 		forcedLevel: 50,
 		ruleset: ['Obtainable', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 		banlist: ['Uber'],
