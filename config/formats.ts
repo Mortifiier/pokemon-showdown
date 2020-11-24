@@ -25,7 +25,7 @@ export const Formats: FormatList = [
 		section: "Overhaul",
 	},
 	{
-		name: "[Gen 6] Testing",
+		name: "[Gen 6 Overhaul] Testing",
 		desc: "Overhaul Testing",
 		mod: 'overhaul',
 		ruleset: ['Cancel Mod'],
